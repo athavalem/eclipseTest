@@ -27,6 +27,7 @@ public class Unit1Exercise {
 		//Branch 3
 
 		//Branch 2 line
+		//Branch 3
 
 		Comparator<Person> cmpr = (p1, p2)  -> p1.getLastName().compareToIgnoreCase(p2.getLastName());
 		people = sortPeople(people, cmpr);
